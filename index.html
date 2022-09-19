@@ -11,25 +11,31 @@
     <!-- nav-bar -->
     <header>
       <div class="nav-bar-container">
-        <img
-          src="./images/logos/circle.svg"
-          alt="circle-logo"
-          class="nav-bar-img"
-        />
-        <nav class="nav-bar">
-          <ul class="nav-bar-ul">
-            <li><a href="./index.html" class="nav-bar-link">Home</a></li>
-            <li>
-              <a href="#projects-section" class="nav-bar-link">Projects</a>
-            </li>
-            <li>
-              <a href="#services-section" class="nav-bar-link">Services</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="nav-bar-button">
-          <!--no se si es necesario este div -->
-          <a href="./contactUs.html" class="contactUs">Contact Us</a>
+        <div class="nav-bar-subcontainer">
+          <nav class="nav-bar">
+            <img
+              src="./images/logos/circle.svg"
+              alt="circle-logo"
+              class="nav-bar-img"
+            />
+            <ul class="nav-bar-ul">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-bar-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects-section" class="nav-bar-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services-section" class="nav-bar-link">Services</a>
+              </li>
+            </ul>
+            <a href="./contactUs.html" class="contactUs">Contact Us</a>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
         </div>
       </div>
     </header>
@@ -50,9 +56,21 @@
           </div>
         </div>
         <div class="hero-img">
-          <img src="./images/hero-section/hero-image.png" alt="hero-image" />
-          <img src="./images/hero-section/card-1.png" alt="card-1 image" />
-          <img src="./images/hero-section/card-2.png" alt="card-2 image" />
+          <img
+            src="./images/hero-section/hero-image.png"
+            alt="hero-image"
+            class="heroimg"
+          />
+          <img
+            src="./images/hero-section/card-1.png"
+            alt="card-1 image"
+            class="hero-img1"
+          />
+          <img
+            src="./images/hero-section/card-2.png"
+            alt="card-2 image"
+            class="hero-img2"
+          />
         </div>
       </div>
     </section>
@@ -127,22 +145,22 @@
           <img
             src="./images/testimonial-section/memoji-1.png"
             alt="emoji"
-            class="emoji1"
+            class="emoji"
           />
           <img
             src="./images/testimonial-section/memoji-2.png"
             alt="emoji"
-            class="emoji2"
+            class="emoji"
           />
           <img
             src="./images/testimonial-section/memoji-3.png"
             alt="emoji"
-            class="emoji3"
+            class="emoji"
           />
           <img
             src="./images/testimonial-section/memoji-4.png"
             alt="emoji"
-            class="emoji4"
+            class="emoji"
           />
         </div>
       </div>
@@ -153,7 +171,7 @@
         <h1 class="projects-heading">Our Services</h1>
         <div class="services-grid">
           <article class="service-article">
-            <div class="service-icon"></div>
+            <div class="service-icon interface"></div>
             <h3 class="project-title">User Interface Design</h3>
             <p>
               Circle provides you with a stunning user interface design that is
@@ -162,7 +180,7 @@
             <a href="#" class="service-link">Learn More</a>
           </article>
           <article class="service-article">
-            <div class="service-icon"></div>
+            <div class="service-icon experience"></div>
             <h3 class="project-title">User Experience Design</h3>
             <p>
               Circle always focuses on delivering the best user experience to
@@ -171,7 +189,7 @@
             <a href="#" class="service-link">Learn More</a>
           </article>
           <article class="service-article">
-            <div class="service-icon"></div>
+            <div class="service-icon app"></div>
             <h3 class="project-title">Application Development</h3>
             <p>
               We develop high-quality mobile and web applications using the
@@ -187,10 +205,9 @@
       <div class="newsletter-container">
         <h1 class="h1-newsletter">Do you have any questions?</h1>
         <p>Let us help you!</p>
-        <div class="formContainer">
+        <div class="form-container">
           <form class="newsletter-form" action="" method="get">
             <div class="email">
-              <div class="email-icon"></div>
               <input
                 class="input-email"
                 type="email"
@@ -198,7 +215,12 @@
                 name="email"
               />
             </div>
-            <input type="submit" value="Suscribe" class="button-submit" />
+            <input
+              type="submit"
+              value="Suscribe"
+              data-wait="Please wait..."
+              class="button-submit"
+            />
           </form>
           <!-- <div
     class="form_done"
@@ -233,6 +255,7 @@
         <a href="#" class="footer-link">Privacy Policy</a>
       </article>
     </footer>
-    <!-- faltan links script -->
+    <script src="./javascript/hamburger.js"></script>
+    <script src="./javascript/home.js"></script>
   </body>
 </html>
