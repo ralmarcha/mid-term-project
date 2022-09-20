@@ -51,8 +51,8 @@
             </p>
           </div>
           <div class="hero-buttons">
-            <a href="#" class="hero-see-button">See our work</a>
             <a href="#" class="hero-get-button">Get in touch</a>
+            <a href="#" class="hero-see-button">See our work</a>
           </div>
         </div>
         <div class="hero-img">
@@ -101,28 +101,46 @@
       <h1 class="projects-heading">Recent Projects</h1>
       <div class="project-cards container">
         <article class="project-article">
-          <img src="./images/projects-section/1.jpg" alt="Project image" />
-          <h3 class="project-title">Simplify</h3>
-          <p>UI Design & App Development</p>
-          <a href="./projects.html" target="_blank" class="project-link"
-            >Learn More</a
-          >
+          <img
+            src="./images/projects-section/1.jpg"
+            alt="Project image"
+            class="projectImg"
+          />
+          <div class="project-text">
+            <h3 class="project-title">Simplify</h3>
+            <div class="text-dataBody">UI Design & App Development</div>
+            <a href="./projects.html" target="_blank" class="project-link"
+              >Learn More</a
+            >
+          </div>
         </article>
         <article class="project-article">
-          <img src="./images/projects-section/2.jpg" alt="Project image" />
-          <h3 class="project-title">Dashcoin</h3>
-          <p>Web Development</p>
-          <a href="./projects.html" target="_blank" class="project-link"
-            >Learn More</a
-          >
+          <img
+            src="./images/projects-section/2.jpg"
+            alt="Project image"
+            class="projectImg"
+          />
+          <div class="project-text">
+            <h3 class="project-title">Dashcoin</h3>
+            <div class="text-dataBody">Web Development</div>
+            <a href="./projects.html" target="_blank" class="project-link"
+              >Learn More</a
+            >
+          </div>
         </article>
         <article class="project-article">
-          <img src="./images/projects-section/3.jpg" alt="Project image" />
-          <h3 class="project-title">Vectorify</h3>
-          <p>User Experience Design</p>
-          <a href="./projects.html" target="_blank" class="project-link"
-            >Learn More</a
-          >
+          <img
+            src="./images/projects-section/3.jpg"
+            alt="Project image"
+            class="projectImg"
+          />
+          <div class="project-text">
+            <h3 class="project-title">Vectorify</h3>
+            <div class="text-dataBody">User Experience Desig</div>
+            <a href="./projects.html" target="_blank" class="project-link"
+              >Learn More</a
+            >
+          </div>
         </article>
       </div>
     </section>
@@ -130,37 +148,35 @@
     <section id="testimonials-section">
       <div class="testimonial-container">
         <h2>Hear What our Clients Have to Say</h2>
-        <p>
+        <p class="testimonials-text">
           "Circle helped us through every stage of our startup. We really
           enjoyed working with you"
         </p>
         <div class="testimonial-client">
-          <span id="client-name">Kristin Watson</span>
-          <span id="client-company">Booking.com</span>
-          <img
-            src="./images/testimonial-section/profile.png"
-            alt="Client image"
-            class="client-image"
-          />
+          <div class="client-image"></div>
+          <div class="client-info">
+            <span id="client-name">Kristin Watson</span>
+            <span id="client-company">Booking.com</span>
+          </div>
           <img
             src="./images/testimonial-section/memoji-1.png"
             alt="emoji"
-            class="emoji"
+            class="emoji top-left"
           />
           <img
             src="./images/testimonial-section/memoji-2.png"
             alt="emoji"
-            class="emoji"
+            class="emoji bottom-right"
           />
           <img
             src="./images/testimonial-section/memoji-3.png"
             alt="emoji"
-            class="emoji"
+            class="emoji bottom-left"
           />
           <img
             src="./images/testimonial-section/memoji-4.png"
             alt="emoji"
-            class="emoji"
+            class="emoji top-right"
           />
         </div>
       </div>
@@ -242,10 +258,10 @@
     </section>
     <!-- footer section -->
     <footer class="footer">
-      <artcle class="footer-content">
+      <article class="footer-content">
         <img src="./images/logos/circle.svg" alt="logo circle" />
         <address>2972 Westheimer Rd.Santa Ana, Illinois 85486</address>
-      </artcle>
+      </article>
       <article class="footer-links">
         <a href="#" class="footer-link">Team</a>
         <a href="#" class="footer-link">Service</a>
@@ -256,6 +272,6 @@
       </article>
     </footer>
     <script src="./javascript/hamburger.js"></script>
-    <script src="./javascript/home.js"></script>
+    <script src="./javascript/fetch.js"></script>
   </body>
 </html>
