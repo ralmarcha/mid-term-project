@@ -1,6 +1,6 @@
 # mid-term-project
 
-MID-TERM-PROJECT
+    # H1 MID-TERM-PROJECT
 
 Crear una web completamente responsive, mediante HTML , CSS & JavaScript.
 
