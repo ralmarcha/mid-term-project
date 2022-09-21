@@ -10,36 +10,110 @@
   </head>
   <body>
     <header>
-      <div class="nav-bar-container">
-        <div class="nav-bar-subcontainer">
-          <nav class="nav-bar">
-            <img
-              src="./images/logos/circle.svg"
-              alt="circle-logo"
-              class="nav-bar-img"
-            />
-            <ul class="nav-bar-ul">
-              <li class="nav-item">
-                <a href="./index.html" class="nav-bar-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#projects-section" class="nav-bar-link">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a href="#services-section" class="nav-bar-link">Services</a>
-              </li>
-            </ul>
-            <a href="./contactUs.html" class="contactUs">Contact Us</a>
-            <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-          </nav>
+      <nav class="nav-bar">
+        <div>
+          <img
+            src="./images/logos/circle.svg"
+            alt="circle-logo"
+            class="nav-bar-img"
+          />
         </div>
-      </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="navBar">
+          <ul class="nav-bar-ul">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-bar-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects-section" class="nav-bar-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services-section" class="nav-bar-link">Services</a>
+            </li>
+          </ul>
+        </div>
+        <a href="./contactUs.html" class="contactUs">Contact Us</a>
+      </nav>
     </header>
+    <!-- ----------------------------- -->
+    <section class="projectPageSection">
+      <article class="projectPage">
+        <h1>Simplify</h1>
+        <div class="projectPage-type">
+          <h3>Ui Design & App Development</h3>
+          <div>
+            Completed on
+            <span class="projectDate">2/2/22</span>
+          </div>
+        </div>
+        <article>
+          <div class="image-wrapper">
+            <img
+              src="./images/projects-section/1.jpg"
+              alt="Project image"
+              class="projectPage-img"
+            />
+          </div>
+          <div class="project-textDescription">
+            Simplify is lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed feugiat faucibus sem, id vulputate justo ornare non. Nullam et
+            vehicula sem. Pellentesque bibendum massa non nisl posuere cursus.
+            Aliquam ac eros pretium neque consequat facilisis. Ut sit amet justo
+            varius ex ultrices fringilla. Sed vel turpis fringilla ante gravida
+            vestibulum. Etiam a sollicitudin leo. Nunc metus lectus, lacinia ut
+            arcu quis, pretium congue lacus.
+          </div>
+        </article>
+      </article>
+    </section>
+    <!-- ----------------------------- -->
+    <section id="projects-section">
+      <h1 class="projects-heading">Other Projects</h1>
+      <div class="project-cards container">
+        <article class="project-article">
+          <img
+            src="./images/projects-section/2.jpg"
+            alt="Project image"
+            class="projectImg"
+          />
+          <div class="project-text">
+            <h3 class="project-title">DashCoin</h3>
+            <div class="text-dataBody">Web Development</div>
+            <a href="#" target="_blank" class="project-link">Learn More</a>
+          </div>
+        </article>
+        <article class="project-article">
+          <img
+            src="./images/projects-section/3.jpg"
+            alt="Project image"
+            class="projectImg"
+          />
+          <div class="project-text">
+            <h3 class="project-title">Vectorify</h3>
+            <div class="text-dataBody">User Experience Design</div>
+            <a href="#" target="_blank" class="project-link">Learn More</a>
+          </div>
+        </article>
+        <article class="project-article">
+          <img
+            src="./images/projects-section/4.jpg"
+            alt="Project image"
+            class="projectImg"
+          />
+          <div class="project-text">
+            <h3 class="project-title">Orbit</h3>
+            <div class="text-dataBody">UI Design</div>
+            <a href="#" target="_blank" class="project-link">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
 
+    <!-- ----------------------------- -->
     <section id="newsletter-section">
       <div class="newsletter-container">
         <h1 class="h1-newsletter">Do you have any questions?</h1>
@@ -61,21 +135,6 @@
               class="button-submit"
             />
           </form>
-          <!-- <div
-      class="form_done"
-      tabindex="-1"
-      role="region"
-      aria-label="Email Form success"
-    >
-      <div>Thank you! Your submission has been received!</div>
-    </div>
-    <div
-      class="form_fail"
-      tabindex="-1"
-      role="region"
-      aria-label="Email Form failure"
-    >
-      <div>Oops! Something went wrong while submitting the form.</div> -->
         </div>
       </div>
     </section>

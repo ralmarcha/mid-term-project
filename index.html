@@ -10,34 +10,34 @@
   <body>
     <!-- nav-bar -->
     <header>
-      <div class="nav-bar-container">
-        <div class="nav-bar-subcontainer">
-          <nav class="nav-bar">
-            <img
-              src="./images/logos/circle.svg"
-              alt="circle-logo"
-              class="nav-bar-img"
-            />
-            <ul class="nav-bar-ul">
-              <li class="nav-item">
-                <a href="./index.html" class="nav-bar-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#projects-section" class="nav-bar-link">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a href="#services-section" class="nav-bar-link">Services</a>
-              </li>
-            </ul>
-            <a href="./contactUs.html" class="contactUs">Contact Us</a>
-            <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-          </nav>
+      <nav class="nav-bar">
+        <div>
+          <img
+            src="./images/logos/circle.svg"
+            alt="circle-logo"
+            class="nav-bar-img"
+          />
         </div>
-      </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="navBar">
+          <ul class="nav-bar-ul">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-bar-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects-section" class="nav-bar-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services-section" class="nav-bar-link">Services</a>
+            </li>
+          </ul>
+        </div>
+        <a href="./contactUs.html" class="contactUs">Contact Us</a>
+      </nav>
     </header>
     <!-- hero section -->
     <section id="hero-section">
@@ -229,6 +229,7 @@
                 type="email"
                 placeholder="Enter your email"
                 name="email"
+                required
               />
             </div>
             <input
@@ -238,21 +239,6 @@
               class="button-submit"
             />
           </form>
-          <!-- <div
-    class="form_done"
-    tabindex="-1"
-    role="region"
-    aria-label="Email Form success"
-  >
-    <div>Thank you! Your submission has been received!</div>
-  </div>
-  <div
-    class="form_fail"
-    tabindex="-1"
-    role="region"
-    aria-label="Email Form failure"
-  >
-    <div>Oops! Something went wrong while submitting the form.</div> -->
         </div>
       </div>
     </section>

@@ -10,36 +10,35 @@
   </head>
   <body>
     <header>
-      <div class="nav-bar-container">
-        <div class="nav-bar-subcontainer">
-          <nav class="nav-bar">
-            <img
-              src="./images/logos/circle.svg"
-              alt="circle-logo"
-              class="nav-bar-img"
-            />
-            <ul class="nav-bar-ul">
-              <li class="nav-item">
-                <a href="./index.html" class="nav-bar-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#projects-section" class="nav-bar-link">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a href="#services-section" class="nav-bar-link">Services</a>
-              </li>
-            </ul>
-            <a href="./contactUs.html" class="contactUs">Contact Us</a>
-            <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-          </nav>
+      <nav class="nav-bar">
+        <div>
+          <img
+            src="./images/logos/circle.svg"
+            alt="circle-logo"
+            class="nav-bar-img"
+          />
         </div>
-      </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="navBar">
+          <ul class="nav-bar-ul">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-bar-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects-section" class="nav-bar-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services-section" class="nav-bar-link">Services</a>
+            </li>
+          </ul>
+        </div>
+        <a href="./contactUs.html" class="contactUs">Contact Us</a>
+      </nav>
     </header>
-
     <section class="contactSection">
       <h1>Contact Us</h1>
       <div>
@@ -48,61 +47,56 @@
           name="post_info-form"
           data-name="Email Form"
           method="post"
-          class="contact_form"
+          class="contact-form"
           aria-label="Email Form"
           action="/action_page.php"
           target="_blank"
         >
-          <div class="label_input_wraper name">
+          <div class="label-input name">
             <label for="name" class="contact-title">Full Name *</label>
             <input
               type="text"
-              class="contact_text-field"
+              class="contact-text"
               maxlength="256"
               name="name"
-              data-name="Name"
               placeholder="Enter your full name"
               id="name"
               required=""
             />
           </div>
-          <div class="label_input_wraper email">
+          <div class="label-input email">
             <label for="email" class="contact-title">Email</label>
             <input
               type="email"
-              class="contact_text-field"
-              maxlength="256"
+              class="contact-text"
               name="email"
-              data-name="Name 2"
               placeholder="Enter your email"
               id="email"
+              required
             />
           </div>
-          <div class="label_input_wraper phone">
+          <div class="label-input phone">
             <label for="phone" class="contact-title">Phone</label>
             <input
-              type="tel"
-              class="contact_text-field"
-              maxlength="256"
+              type="numer"
+              class="contact-text"
               name="phone"
-              data-name="Name 3"
               placeholder="Enter your phone"
               id="phone"
+              required
             />
           </div>
-          <div class="label_input_wraper message">
-            <label for="field" class="contact-title">Message *</label>
+          <div class="label-input message">
+            <label for="message" class="contact-title">Message *</label>
             <textarea
               placeholder="Write your message here..."
               maxlength="5000"
-              id="field"
-              name="field"
+              id="message"
+              name="message"
               required=""
-              data-name="field"
-              class="contact_text-field textTarea_field"
+              class="contact-text textArea"
             ></textarea>
           </div>
-
           <button
             type="submit"
             value=""
@@ -112,13 +106,8 @@
           >
             Submit
           </button>
+          <div id="message2"></div>
         </form>
-      </div>
-      <div class="formDome">
-        <div id="formDome"></div>
-      </div>
-      <div class="formFail">
-        <div>Oops! Something went wrong while submitting the form.</div>
       </div>
     </section>
 

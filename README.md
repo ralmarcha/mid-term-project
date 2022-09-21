@@ -40,3 +40,7 @@ _Dificultades:_
 Mañana:
 
 - Resolver las dudas para poder terminar la página de projects y avanzar la del form.
+
+## 21/09/2022
+
+- He finalizado todo menos el JS del formulario.
