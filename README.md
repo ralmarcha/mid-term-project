@@ -4,22 +4,22 @@ Crear una web completamente responsive, mediante HTML , CSS & JavaScript.
 
 ## 19/09/2022
 
-- Crear el repositorio
+- Crear el repositorio.
 - Organizar los diferentes ficheros de HTML, CSS y JS para las diferentes partes del proyecto.
-- Hacer el esqueleto completo de la Home en HTML, con las diferentes secciones
-- Crear un burger menú (siguiendo un tutorial)
+- Hacer el esqueleto completo de la Home en HTML, con las diferentes secciones.
+- Crear un burger menú .
 - Empezar a dar estilo mediante CSS, empezando por la vista de pantalla pequeña.
 
 _Dificultades:_
 
-- burger menu adaptarlo con los estilos correspondientes.
-- he empezado por secciones , intentando hacer responsivo por partes, pero me estaba complicando y repitiendo, así que he decidido empezar por el mobile, y después iré adaptando.
-- boton suscribe con el "pleaseWait" y cambio de color cuando haces click.
-- form tiene que salir frase si se ha enviado correctamente.
+- Burger menu adaptarlo con los estilos correspondientes.
+- He empezado por secciones , intentando hacer responsivo por partes, pero me estaba complicando y repitiendo, así que he decidido empezar por el mobile, y después iré adaptando.
+- Botón suscribe con el "pleaseWait" y cambio de color cuando haces click.
+- Form tiene que salir frase si se ha enviado correctamente.
 
 Mañana:
 
-- me gustaría acabar la home : hacer el fetch en la sección projects, mirar info de las dudas que tengo, hacer mediaquery para otros tamaños.
+- Me gustaría acabar la home : hacer el fetch en la sección projects, mirar info de las dudas que tengo, hacer mediaquery para otros tamaños.
 
 ## 20/09/2022
 
@@ -29,7 +29,6 @@ Mañana:
 **DUDAS:**
 
 - Me ha quedado un espacio en la hamburguesa que tengo que quitar, pero no lo he conseguido.
-- Aclarar la sección projects con el fetch, porque al hacerlo me ha modificado todo el texto y no sé cómo proceder.
 - Las frases al hacer envío de formulario.
 
 _Dificultades:_
@@ -47,8 +46,10 @@ Mañana:
 
 ## 22/09/2022
 
-- He acabado de ajustar todo el responsive
+- He acabado de ajustar todo el responsive.
 - He introducido frase al hacer click en el botón submit.
+- He hecho animaciones de zoom en las tarjetas de la página de projects.
 - He hecho el Netlify.
 - He hecho la presentación .
-- He hecho animaciones de zoom en las tarjetas de la página de projects.
+
+https://circle-mid-term-project-ram.netlify.app/
