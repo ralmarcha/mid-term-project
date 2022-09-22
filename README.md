@@ -52,4 +52,8 @@ Mañana:
 - He hecho el Netlify.
 - He hecho la presentación .
 
+**DEPLOYMENT:**
 https://circle-mid-term-project-ram.netlify.app/
+
+**SLIDES:**
+https://slides.com/raquelalmarcha/responsive-website
