@@ -32,7 +32,7 @@ function addPost(preventForm) {
 		  <h6>Message Submitted</h6>
 	  </div> 
 		  `;
-      document.querySelector("#message2").innerHTML = message;
+      document.querySelector("#message3").innerHTML = message;
     })
     .catch(() => {
       let message = "";
@@ -41,7 +41,7 @@ function addPost(preventForm) {
 			<h6>oh oh, there has been an error with your message!</h6>
 		</div> 
 			`;
-      document.querySelector("#message2").innerHTML = message;
+      document.querySelector("#message3").innerHTML = message;
     });
 
   document.querySelector("#name").value = "";

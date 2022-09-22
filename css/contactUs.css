@@ -95,6 +95,16 @@ h3 {
   grid-area: btn;
 }
 
+#message2 {
+  height: 40px;
+  padding: 15px 30px;
+  background-color: #ffa2a26a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 /*--------MEDIA  QUERY--------------  */
 @media only screen and (min-width: 768px) {
   .contactSection {

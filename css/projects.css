@@ -25,6 +25,7 @@ body {
   color: #292e47;
   font-size: 2.5em;
   margin-bottom: 20px;
+  margin-top: 60px;
 }
 
 .projectPage h1::first-letter {
@@ -84,7 +85,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .projectPageSection {
-    margin-top: 80px;
+    margin-top: 20px;
   }
 
   .projectPage-type {
@@ -97,6 +98,60 @@ body {
   .projectPage h1 {
     color: #292e47;
     font-size: 3.5em;
+    margin-top: 40px;
+  }
+
+  .projectImg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1s;
+  }
+
+  .project-article {
+    width: 330px;
+    height: 230px;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    z-index: 1;
+  }
+
+  .project-article:hover .projectImg {
+    transform: scale(1.5);
+    opacity: 0.3;
+    transition: 1s;
+    transition-timing-function: ease;
+  }
+
+  .project-title {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    line-height: 0;
+    z-index: 2;
+  }
+
+  .project-link {
+    display: none;
+  }
+
+  .text-dataBody {
+    margin-top: 60px;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
   }
 }
 
@@ -107,5 +162,10 @@ body {
 
   .projectPage-img {
     width: 75vw;
+  }
+
+  .project-article {
+    width: 350px;
+    height: 250px;
   }
 }

@@ -44,3 +44,11 @@ Mañana:
 ## 21/09/2022
 
 - He finalizado todo menos el JS del formulario.
+
+## 22/09/2022
+
+- He acabado de ajustar todo el responsive
+- He introducido frase al hacer click en el botón submit.
+- He hecho el Netlify.
+- He hecho la presentación .
+- He hecho animaciones de zoom en las tarjetas de la página de projects.

@@ -25,3 +25,25 @@ function getPosts() {
     .catch((error) => console.log(error));
 }
 getPosts();
+
+/*---------MNEWSLETTER MESSAGE----------*/
+
+let messageShown = false;
+const errorMessage = "Oops! Something went wrong while submitting the form.";
+const show = document.createElement("p");
+show.textContent = errorMessage;
+document.querySelector("#log").appendChild(show);
+
+document
+  .querySelector(".button-submit")
+  .addEventListener("click", function (e) {
+    messageShown = !messageShown;
+    if (messageShown === true) {
+      const wait = setTimeout(() => {
+        document.getElementById("log").style.display = "block";
+        clearTimeout(wait);
+      }, 1000);
+    } else {
+      document.getElementById("log").style.display = "none";
+    }
+  });
