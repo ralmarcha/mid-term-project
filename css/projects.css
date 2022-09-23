@@ -168,4 +168,70 @@ body {
     width: 350px;
     height: 250px;
   }
+
+  .card-container {
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+  }
+
+  .dimension {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    margin: 30px 30px 30px 550px;
+  }
+
+  .card-container:hover .dimension {
+    transform: rotateY(180deg);
+  }
+
+  .front,
+  .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform 1s ease-in-out;
+  }
+
+  .front {
+    background-color: #ff9e80;
+    color: #fff;
+  }
+
+  .back {
+    background-color: #ff9e80;
+    color: #fff;
+    transform: rotateY(180deg);
+  }
+
+  .projectImg3d {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .title {
+    font-size: 2.5em;
+  }
+  .subtitle {
+    font-size: 2.3em;
+  }
+  .subtitle,
+  .title {
+    color: white;
+    margin: 1rem;
+    text-align: center;
+    transform: translateZ(100px);
+  }
 }
